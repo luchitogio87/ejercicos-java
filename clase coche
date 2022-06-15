@@ -1,0 +1,22 @@
+public class coche {
+    private int puertas;
+
+    public coche(int puertas) {
+        this.puertas = puertas;
+    }
+
+    public void sumarpuertas(int puertas) {
+        this.puertas += puertas;
+    }
+
+    public void printInfo() {
+        System.out.println("puertas: " + puertas);
+    }
+      public static void main(String[] args) {
+
+     coche coche = new coche(4);
+     coche.sumarpuertas(1);
+     coche.printInfo();
+      }
+
+}
